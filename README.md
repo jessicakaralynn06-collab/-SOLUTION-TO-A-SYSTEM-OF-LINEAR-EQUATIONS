@@ -16,18 +16,19 @@ End the program
 ## Program:
 ```
 #Program to find the solution for the given linear equations.
-#Developed by: Rakisha R
-#RegisterNumber: 212225230223
+#Developed by: JESSICA. M
+#RegisterNumber: 212225220044
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
-matrixA=np.array([[1,-3],[3,1]])
-const=np.array([0,10])
-result=np.linalg.solve(matrixA,const)
-print(result)
+A=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
+B=np.array([-9,4,-1])
+C=np.linalg.solve(A,B)
+print(C)
 ```
 ## Output:
-<img width="1332" height="712" alt="image" src="https://github.com/user-attachments/assets/601c450c-4996-451e-86f3-61deb440ccd6" />
+<img width="1280" height="715" alt="Screenshot 2026-08-24 182705" src="https://github.com/user-attachments/assets/4b1ed638-366e-4c7b-97c8-6c70baeb55ff" />
+
 
 
 ## Result: 
